@@ -42,3 +42,5 @@ Each run stores checkpoints, per-sample predictions, logits, per-class metrics, 
 The initial combined-method gains did not consistently repeat. Report every run, false-positive rates and retention costs. Do not tune parameters on the test set. The later threshold exploration was exploratory, designed after inspecting the first run, and is outside this minimal training package.
 
 This package excludes raw traffic, weights, private credentials, personal student information and downloaded third-party papers. The README describes the completed local research; it does not claim that the reduced demonstration reproduces published performance or that every dependency installation has been verified.
+
+manifest.json hashes the public text files with LF line endings, matching the GitHub archive. The code ZIP is also normalized to LF; source_manifest.json separately records the unchanged bytes of the upstream author files.
