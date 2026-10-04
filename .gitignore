@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+original_incremental_nids/
+compatibility_incremental_nids/
+research_incremental_nids/
+research_results/
+downloaded_author_manifest.json
+*.log

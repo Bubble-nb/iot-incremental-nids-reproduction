@@ -1,0 +1,11 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "torch": "2.11.0+cu128",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "sklearn": "1.9.0",
+  "pyarrow": "25.0.1",
+  "note": "Compatibility smoke check uses installed modern dependencies and author CPU setting; not the original frozen environment."
+}

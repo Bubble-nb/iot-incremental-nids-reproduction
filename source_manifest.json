@@ -1,0 +1,355 @@
+{
+  "repository": "jmpr0/incremental-nids",
+  "commit": "842737730852c7c7c0955257c48ca72a22770343",
+  "retrieved_date": "2026-10-02",
+  "files": [
+    {
+      "path": "LICENSE",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/LICENSE",
+      "bytes": 1062,
+      "sha256": "1bad3a649549445000b00ac39e517195d355674fe3c33d02942a9d7c843b72ae"
+    },
+    {
+      "path": "README.md",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/README.md",
+      "bytes": 8504,
+      "sha256": "73f84765adc63bc03211de3abc1d4b2d566beed602d0b4a4d90b06c8e3a2acce"
+    },
+    {
+      "path": "data/uniform_label/classes_edge-iiot_dwn10p.txt",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/data/uniform_label/classes_edge-iiot_dwn10p.txt",
+      "bytes": 176,
+      "sha256": "e4cb71112fb02573d74ead9eb56e9015b2a88d7f983d20808a0056f3e9522d53"
+    },
+    {
+      "path": "data/uniform_label/classes_iot-nidd_dwn10p.txt",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/data/uniform_label/classes_iot-nidd_dwn10p.txt",
+      "bytes": 128,
+      "sha256": "fb8e6c88d92c47baa572e2584635f3c0fba100ea904f3ec59a2c09bb256ed0ff"
+    },
+    {
+      "path": "data/uniform_label/classes_ton-iot_dwn10p.txt",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/data/uniform_label/classes_ton-iot_dwn10p.txt",
+      "bytes": 156,
+      "sha256": "658f4be4512fd4d4d2f78c2723fb1dc206e1d7054e2ff8cd4913ea1c2aaf5291"
+    },
+    {
+      "path": "data/uniform_label/edge-iiot_dwn10p_prep1.parquet",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/data/uniform_label/edge-iiot_dwn10p_prep1.parquet",
+      "bytes": 1925774,
+      "sha256": "ac2d55482e68188e5748d7cda9d5faf00aad26c24735134a98cf57c83a966fe2"
+    },
+    {
+      "path": "data/uniform_label/iot-nidd_dwn10p_prep1.parquet",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/data/uniform_label/iot-nidd_dwn10p_prep1.parquet",
+      "bytes": 1062204,
+      "sha256": "826a34dcdf5c71baf49921a08600221507c1519d482193dd5b59579808ca4eab"
+    },
+    {
+      "path": "data/uniform_label/ton-iot_dwn10p_prep1.parquet",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/data/uniform_label/ton-iot_dwn10p_prep1.parquet",
+      "bytes": 2474753,
+      "sha256": "4a835aeaef3ca6bf6445a6a88fb9869ec8ccb0cf9899222e6b653a1442ce59a4"
+    },
+    {
+      "path": "requirements.txt",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/requirements.txt",
+      "bytes": 250,
+      "sha256": "fc6abe9bf527f853447c19777ee64d1a2b310d8c344068836863abb42f9f1d83"
+    },
+    {
+      "path": "src/approach/__init__.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/approach/__init__.py",
+      "bytes": 267,
+      "sha256": "ac23d6a3ab78a221da7e09ac802b9f9e48cc3708bc6833a9634a8f8322d913df"
+    },
+    {
+      "path": "src/approach/bic.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/approach/bic.py",
+      "bytes": 16092,
+      "sha256": "bdadfab5255251532e6291c09033b9ca94f2d3518e4040115172c0911d0b8279"
+    },
+    {
+      "path": "src/approach/incremental_learning.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/approach/incremental_learning.py",
+      "bytes": 12663,
+      "sha256": "13e5c30bdc09a2b9f8a52a9304beaf4b8a1fc7dcd850a7d00d2a09e120c686be"
+    },
+    {
+      "path": "src/approach/jointft.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/approach/jointft.py",
+      "bytes": 2262,
+      "sha256": "1b48442b04f39b648c928ac19ae9173305f46caa0ec97d66e2e82b55850f2a78"
+    },
+    {
+      "path": "src/approach/scratch.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/approach/scratch.py",
+      "bytes": 5681,
+      "sha256": "4f50cee42a75d7ef10b1b2133591cc89a8d24a877d6bf075d4ba8e739a34c544"
+    },
+    {
+      "path": "src/compute_metrics.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/compute_metrics.py",
+      "bytes": 4529,
+      "sha256": "504a36f8365242a8ab7af469b6039374e16a0c558d2ebdee93e207e05bdad8c8"
+    },
+    {
+      "path": "src/datasets/data_loader.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/datasets/data_loader.py",
+      "bytes": 5498,
+      "sha256": "278222b1591a75e2c354baccd04e162d8e7deb7250a7d222a46b7de9119524da"
+    },
+    {
+      "path": "src/datasets/dataset_config.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/datasets/dataset_config.py",
+      "bytes": 601,
+      "sha256": "ebab0c7bea9b15b32b072d44c0cc6f6189983f95cf4cd7e693f6eef6fbdc72c6"
+    },
+    {
+      "path": "src/datasets/exemplars_dataset.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/datasets/exemplars_dataset.py",
+      "bytes": 2239,
+      "sha256": "e1e2e0f79bed36dc42b3812c4fcb9e2c658c92f856b8438850140b56562777bf"
+    },
+    {
+      "path": "src/datasets/exemplars_selection.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/datasets/exemplars_selection.py",
+      "bytes": 8101,
+      "sha256": "896a11bf8ac680f6bfd5635015bd767d3ebccee3ecb148d0b30f1f7dba57f821"
+    },
+    {
+      "path": "src/datasets/memory_dataset.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/datasets/memory_dataset.py",
+      "bytes": 4838,
+      "sha256": "2d0d9e82d30eae8f194a5539df5b153190a8ecea829982c2fceba75111b24133"
+    },
+    {
+      "path": "src/datasets/networking_dataset.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/datasets/networking_dataset.py",
+      "bytes": 9221,
+      "sha256": "b8118c2c81d04ee634f49ce7ae7f21ecfe77eb4a9d25d53b836271692b983d9c"
+    },
+    {
+      "path": "src/loggers/disk_logger.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/loggers/disk_logger.py",
+      "bytes": 3130,
+      "sha256": "9ff3ee9748b1d30dd4f3cc400f418f77db4a3c2d7e9abb76e6a1e185743f7fc4"
+    },
+    {
+      "path": "src/loggers/exp_logger.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/loggers/exp_logger.py",
+      "bytes": 2445,
+      "sha256": "353c69edd5f201b615f63c1ff53608a04eb7497d80c503677abf44ff4272ea76"
+    },
+    {
+      "path": "src/loggers/tensorboard_logger.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/loggers/tensorboard_logger.py",
+      "bytes": 1903,
+      "sha256": "63ac689738bb00a2f4e708019070187479039b8043fb606b196a90517d588dcd"
+    },
+    {
+      "path": "src/main.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/main.py",
+      "bytes": 13179,
+      "sha256": "82b997c18f8ad1b4325a4a22d263b3baf5e5d1c664f68332562d0462857cd76f"
+    },
+    {
+      "path": "src/networks/__init__.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/networks/__init__.py",
+      "bytes": 85,
+      "sha256": "6a9abcc8fbe6710e75b2504f2c393437978fa6534017dbc5e2608d91078e85f4"
+    },
+    {
+      "path": "src/networks/lopez17cnn.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/networks/lopez17cnn.py",
+      "bytes": 3227,
+      "sha256": "97f39e7769953602258faadfa1d287cecf0930e0a82600474102847e3779bebd"
+    },
+    {
+      "path": "src/networks/network.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/networks/network.py",
+      "bytes": 5796,
+      "sha256": "3457e6496f202b9c56158d46f974593c9b8cb7d0a2a44690c4a1e2e0f09bf7c6"
+    },
+    {
+      "path": "src/util/__init__.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/util/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/util/xai_utils.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/util/xai_utils.py",
+      "bytes": 16305,
+      "sha256": "1c630addf52f19e46121feeda3c7197172a007c62f9ad7051b50a97ce8b2ce4a"
+    },
+    {
+      "path": "src/utils.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/utils.py",
+      "bytes": 1111,
+      "sha256": "d2db1ff1e614a45fa5e67ecc29709fdb561c1b68dfc4ab9adbf8732ea006affa"
+    },
+    {
+      "path": "src/xai/UMAP/fig_benign.pdf",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/UMAP/fig_benign.pdf",
+      "bytes": 27288,
+      "sha256": "4ec681e4cb61afc40a024c6029ffb6ce81d55db0016c77c1265408d503810b6a"
+    },
+    {
+      "path": "src/xai/UMAP/fig_dos-http.pdf",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/UMAP/fig_dos-http.pdf",
+      "bytes": 33663,
+      "sha256": "d7af3d050706e0a316a874f541a5ed32877c486ec98822152301452b3cb1d5a7"
+    },
+    {
+      "path": "src/xai/UMAP/fig_dos-tcp-syn.pdf",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/UMAP/fig_dos-tcp-syn.pdf",
+      "bytes": 55088,
+      "sha256": "406f087472725220ed8845061809552428abf4d8f251bc14653ac8fec87631c8"
+    },
+    {
+      "path": "src/xai/UMAP/fig_infog-scan-port.pdf",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/UMAP/fig_infog-scan-port.pdf",
+      "bytes": 23586,
+      "sha256": "594d8e800a48a650b83a88ee48ce89a37ee787b6114d1538c2937ab953af713d"
+    },
+    {
+      "path": "src/xai/UMAP/umap_benign.parquet",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/UMAP/umap_benign.parquet",
+      "bytes": 293116,
+      "sha256": "e15a3e2319b6489eb5fa89dab9b7168d90f5946d206dbd9284d991cdc5c2c5e2"
+    },
+    {
+      "path": "src/xai/UMAP/umap_dos-http.parquet",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/UMAP/umap_dos-http.parquet",
+      "bytes": 89273,
+      "sha256": "e9a205b9945ea01c379b1014499b1e94942dfdbd84291fc2b498505a3ba17593"
+    },
+    {
+      "path": "src/xai/UMAP/umap_dos-tcp-syn.parquet",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/UMAP/umap_dos-tcp-syn.parquet",
+      "bytes": 94425,
+      "sha256": "4ab99b8258bb1a68d4c74e745a21101cafeb1f008b3146204aa38e89040a1781"
+    },
+    {
+      "path": "src/xai/UMAP/umap_infog-scan-port.parquet",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/UMAP/umap_infog-scan-port.parquet",
+      "bytes": 49445,
+      "sha256": "1a3556635bfc5f4dc1324f287c415a09c599a211bf3d06b9478050f21a3d3463"
+    },
+    {
+      "path": "src/xai/compute_neighbors.py",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/compute_neighbors.py",
+      "bytes": 5566,
+      "sha256": "c124c3be1d850b7c3c131e5c0be7b1ae87d233205716cb699d86c270c1737499"
+    },
+    {
+      "path": "src/xai/neighbors/src_iot-nidd_dst_ton-iot_bic-mem/top_5_nb_src.np",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/neighbors/src_iot-nidd_dst_ton-iot_bic-mem/top_5_nb_src.np",
+      "bytes": 114923,
+      "sha256": "4d979d09de7c796cfcbdbc2889b5bea1a04773158b4b0dc75ed4a857bfbb067d"
+    },
+    {
+      "path": "src/xai/neighbors/src_iot-nidd_dst_ton-iot_bic-mem/top_5_nb_tgt.np",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/neighbors/src_iot-nidd_dst_ton-iot_bic-mem/top_5_nb_tgt.np",
+      "bytes": 459323,
+      "sha256": "1b27eb13c859fa74be3f2f6386a5b73833c2974df246b680417852f33c92e479"
+    },
+    {
+      "path": "src/xai/neighbors/src_iot-nidd_dst_ton-iot_jointft-mem/top_5_nb_src.np",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/neighbors/src_iot-nidd_dst_ton-iot_jointft-mem/top_5_nb_src.np",
+      "bytes": 102143,
+      "sha256": "4b1c6829b8780021112ab93c673c197f265d26a2bdf033914b10c4b0facdf267"
+    },
+    {
+      "path": "src/xai/neighbors/src_iot-nidd_dst_ton-iot_jointft-mem/top_5_nb_tgt.np",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/neighbors/src_iot-nidd_dst_ton-iot_jointft-mem/top_5_nb_tgt.np",
+      "bytes": 476783,
+      "sha256": "443734c379bd50c6386ad57a9d00abbc9eed874ff9c7bd1fc4aa23c872077e56"
+    },
+    {
+      "path": "src/xai/neighbors/src_iot-nidd_dst_ton-iot_jointft/top_5_nb_src.np",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/neighbors/src_iot-nidd_dst_ton-iot_jointft/top_5_nb_src.np",
+      "bytes": 93923,
+      "sha256": "6c7047896b0e4b9f36d2fe81256c5517bbb09b2f6a08575348f137e5c2c27703"
+    },
+    {
+      "path": "src/xai/neighbors/src_iot-nidd_dst_ton-iot_jointft/top_5_nb_tgt.np",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/neighbors/src_iot-nidd_dst_ton-iot_jointft/top_5_nb_tgt.np",
+      "bytes": 479123,
+      "sha256": "9336ba8514256fd7b986361cd2543ed8c3d92a49ba57aa590e476ea62cee7ffd"
+    },
+    {
+      "path": "src/xai/neighbors/src_iot-nidd_dst_ton-iot_scratch/top_5_nb_src.np",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/neighbors/src_iot-nidd_dst_ton-iot_scratch/top_5_nb_src.np",
+      "bytes": 330803,
+      "sha256": "199963de273852f0257eb831527eb69df18ed5ecc566d6871798e9805d29491c"
+    },
+    {
+      "path": "src/xai/neighbors/src_iot-nidd_dst_ton-iot_scratch/top_5_nb_tgt.np",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/neighbors/src_iot-nidd_dst_ton-iot_scratch/top_5_nb_tgt.np",
+      "bytes": 476243,
+      "sha256": "0d00bfa6807f5ce5975f66d9392271ec3af6d33e63b517c49bc9b1d9ed906102"
+    },
+    {
+      "path": "src/xai/sample_explanations.ipynb",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/sample_explanations.ipynb",
+      "bytes": 103999,
+      "sha256": "966448e8fecd16547073c5a35800e2770397de8f6cd3613083f59d12390a0350"
+    },
+    {
+      "path": "src/xai/samples_based_explanation_399_common.pdf",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/samples_based_explanation_399_common.pdf",
+      "bytes": 23727,
+      "sha256": "67b01cedf17255c3b44701c601b4f3d277d55af6da2ff6831123572b8fc8631f"
+    },
+    {
+      "path": "src/xai/shap.ipynb",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/shap.ipynb",
+      "bytes": 109960,
+      "sha256": "5798178459108c4480d114e6bdca51d6f9677745b9750aff518ad02c54f20337"
+    },
+    {
+      "path": "src/xai/shap/backd_confused_with_inj_http.pdf",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/shap/backd_confused_with_inj_http.pdf",
+      "bytes": 16219,
+      "sha256": "f0ab1036f00ba6f670db87a0263567f1d855d8d4b013f4fdcdd5800ceb5dbbd9"
+    },
+    {
+      "path": "src/xai/shap/backd_http_conf.pickle",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/shap/backd_http_conf.pickle",
+      "bytes": 339,
+      "sha256": "c286ba744f556ec8a340acf615bf738e08ed1835a8e59a3f4350887f141fb7cd"
+    },
+    {
+      "path": "src/xai/shap/ransom_http_conf.pickle",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/shap/ransom_http_conf.pickle",
+      "bytes": 267,
+      "sha256": "cf923090ade5aa583ccf2fcb882895b907382e0f3a8d3895a133b7514be1733a"
+    },
+    {
+      "path": "src/xai/shap/ransomware_confused_with_inj_http.pdf",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/shap/ransomware_confused_with_inj_http.pdf",
+      "bytes": 16274,
+      "sha256": "90e853ddbf32730bf0ecfa6b60d9cf13e09157b184122f7f3b847346cf4f70a5"
+    },
+    {
+      "path": "src/xai/shap_values_backd_http_confused_seed1_5r_deepExplainer.pickle",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/shap_values_backd_http_confused_seed1_5r_deepExplainer.pickle",
+      "bytes": 117170,
+      "sha256": "e99bb7d2c91ec204c80dabf6c78e08a64f6c03d5b1eb5dde6656eb4aa59319c9"
+    },
+    {
+      "path": "src/xai/shap_values_ransom_http_confused_seed1_5r_deepExplainer.pickle",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/shap_values_ransom_http_confused_seed1_5r_deepExplainer.pickle",
+      "bytes": 76850,
+      "sha256": "73fb6af8bf000d10f88b77687abfd5212ac40406c55f6eadd561feca62e946ff"
+    },
+    {
+      "path": "src/xai/umap_attacks.ipynb",
+      "source": "https://raw.githubusercontent.com/jmpr0/incremental-nids/842737730852c7c7c0955257c48ca72a22770343/src/xai/umap_attacks.ipynb",
+      "bytes": 147893,
+      "sha256": "2c3a8b6b3c600551c6ca8eea52551095b33a9f354db34b5668420b1fc128a7a2"
+    }
+  ]
+}

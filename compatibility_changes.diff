@@ -1,0 +1,28 @@
+--- original/networking_dataset.py
++++ compatibility/networking_dataset.py
+@@ -47,10 +47,11 @@
+              class_order=None, num_pkts=None, fields=None, seed=0):
+     """Prepare data: dataset splits, task partition, class order"""
+ 
++    full_path = full_path.replace('\\', '/')
+     data = {}
+     taskcla = []
+ 
+-    if not os.path.exists(full_path):
++    if not os.path.exists(full_path) and not os.path.exists(full_path.replace('.parquet', f'_prep{seed}.parquet')):
+         full_path = '../' + full_path
+ 
+     path = os.path.join(*full_path.split('/')[:-1])
+@@ -121,7 +122,11 @@
+     np.random.shuffle(class_order)
+ 
+     print('Class order: ', class_order)
+-    labels=np.sort(np.unique(pd.read_parquet(full_path, columns=['LABEL'])['LABEL'].values))
++    if os.path.exists(full_path):
++        labels = np.sort(np.unique(pd.read_parquet(full_path, columns=['LABEL'])['LABEL'].values))
++    else:
++        labels = np.loadtxt(os.path.join(path, f'classes_{dataset_filename[:-8]}.txt'), dtype=str, ndmin=1)
++        assert len(labels) == num_classes, 'Class metadata does not match encoded labels'
+     labels_dict=dict([(k, np.where(np.array(class_order)==i)[0][0]) for i, k in enumerate(labels)])
+     
+     # compute classes per task and num_tasks

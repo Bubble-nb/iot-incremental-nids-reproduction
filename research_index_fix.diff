@@ -1,0 +1,11 @@
+--- compatibility/src/datasets/networking_dataset.py
++++ research/src/datasets/networking_dataset.py
+@@ -103,7 +103,7 @@
+         df.to_parquet(prep_df_path)
+     else:
+         print('WARNING: using pre-processed dataframe.')
+-        df = pd.read_parquet(prep_df_path)
++        df = pd.read_parquet(prep_df_path).reset_index(drop=True)
+         train_idx, test_idx = df[df['IS_TRAIN']].index, df[~df['IS_TRAIN']].index
+ 
+     print(df.columns)
