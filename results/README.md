@@ -1,12 +1,12 @@
-# Completed fixed-sample experiments
+# 已完成的固定样例实验
 
-These summaries come from the completed forward runs (seeds 1, 2, 3) and one reverse run (seed 1), each allowing up to 200 epochs with validation-based model selection. They are not the one-epoch execution demonstrations.
+本目录汇总正向迁移的三个运行种子（1、2、3）和反向迁移的一个运行种子（1）。每次最多训练 200 轮，并依据验证集选择模型。它们不是单轮代码演示。
 
-- repeated_run_metrics.csv contains 48 independently recomputed domain results for 24 model states.
-- forward_repeats.md reports every paired difference and descriptive means. Combined improvements did not consistently repeat.
-- reverse_single_run.md reports both classification performance and false-positive costs.
-- repeat_validation_audit.json confirms matching forward test feature/semantic-label multisets and differing training-internal validation multisets.
+- `repeated_run_metrics.csv`：24 个模型状态、48 份域级预测指标，已独立复算。
+- `forward_repeats.md`：逐次配对差值与描述性均值；组合方法的提升没有稳定重现。
+- `reverse_single_run.md`：反向迁移分类表现及正常流量误报代价。
+- `repeat_validation_audit.json`：核验正向运行的测试特征/语义标签多重集合一致，训练内部验证集多重集合不同。
 
-The run seed changes class order, training-internal validation sampling and training randomness, while prep1 train/test membership remains fixed. Thus, this is not an experiment on three independent test splits. Different migration directions are not pooled into one performance estimate.
+运行种子会影响类别顺序、训练内部验证样本抽取及训练随机性，但 `prep1` 训练/测试成员固定。因此，这不是三份独立测试划分。不同迁移方向分别报告，不合并成单一性能估计。
 
-Macro-F1 averages over classes occurring in the evaluated domain, and predictions outside that domain remain errors. False-positive rate uses truly benign samples as its denominator. Full weights and per-sample predictions are retained locally, not uploaded here. No significance or deployment-superiority claim is made.
+Macro-F1 在评估域实际出现的类别上取平均；预测到该域之外的类别仍计为错误。正常误报率以真实正常样本数为分母。完整模型权重和逐样本预测保留在本地，不上传至此仓库。本项目不据此宣称统计显著或部署性能更优。
