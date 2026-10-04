@@ -1,0 +1,88 @@
+{
+  "records": [
+    {
+      "seed": 1,
+      "domains": [
+        {
+          "domain": "source",
+          "validation": {
+            "n": 1418,
+            "feature_label_multiset_sha256": "0b06c63e9f2d7ca965dd7c21d50e373d9564a2cf777030a97f02804db7a0f53a"
+          },
+          "test": {
+            "n": 5999,
+            "feature_label_multiset_sha256": "4d1b7082adba5dfdfb089e8e7023f75d94d7c6f0df54154c1a450d44ba7cc23d"
+          }
+        },
+        {
+          "domain": "target",
+          "validation": {
+            "n": 1978,
+            "feature_label_multiset_sha256": "e975f2a47d936685704b72ab18741d8567c3134e25eb3e9d26c82c6a0dc95d38"
+          },
+          "test": {
+            "n": 8455,
+            "feature_label_multiset_sha256": "84096afc1ce9d8c45c8d0211f2f9bd0c386f978c3f4be48ad84a742feb5ae185"
+          }
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "domains": [
+        {
+          "domain": "source",
+          "validation": {
+            "n": 1418,
+            "feature_label_multiset_sha256": "3f6d1c7cb84157c6df67116f67b141b659eaba191fb0980c01f166de1ba8b6fc"
+          },
+          "test": {
+            "n": 5999,
+            "feature_label_multiset_sha256": "4d1b7082adba5dfdfb089e8e7023f75d94d7c6f0df54154c1a450d44ba7cc23d"
+          }
+        },
+        {
+          "domain": "target",
+          "validation": {
+            "n": 1978,
+            "feature_label_multiset_sha256": "441356106129c6bf67b21f5d09cc67c4175259d41625d1b5c37d39c8248f84da"
+          },
+          "test": {
+            "n": 8455,
+            "feature_label_multiset_sha256": "84096afc1ce9d8c45c8d0211f2f9bd0c386f978c3f4be48ad84a742feb5ae185"
+          }
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "domains": [
+        {
+          "domain": "source",
+          "validation": {
+            "n": 1418,
+            "feature_label_multiset_sha256": "c895d82dc186ef11164132f79ac6a260a30d7a706a565402b3cbf0c16261c44d"
+          },
+          "test": {
+            "n": 5999,
+            "feature_label_multiset_sha256": "4d1b7082adba5dfdfb089e8e7023f75d94d7c6f0df54154c1a450d44ba7cc23d"
+          }
+        },
+        {
+          "domain": "target",
+          "validation": {
+            "n": 1978,
+            "feature_label_multiset_sha256": "73e865ccc1eb288489ddbc33683d0fa2cf1be0313b1435debd5951a759296c62"
+          },
+          "test": {
+            "n": 8455,
+            "feature_label_multiset_sha256": "84096afc1ce9d8c45c8d0211f2f9bd0c386f978c3f4be48ad84a742feb5ae185"
+          }
+        }
+      ]
+    }
+  ],
+  "note": "Order-independent multiset of float32 model inputs and semantic class names; does not establish raw flow identity.",
+  "source_validation_varies": true,
+  "target_validation_varies": true
+}
