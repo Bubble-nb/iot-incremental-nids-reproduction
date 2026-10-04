@@ -60,6 +60,31 @@
     "sha256": "92c822d7271e1d92651fe3812bee0163ea8dc1ad3fc44baf28a2ddac6c031e40"
   },
   {
+    "path": "results/forward_repeats.md",
+    "bytes": 1420,
+    "sha256": "aaaacdfdce71891ec721bae9650d7905d22ede0a828b222ce3302ec0ee2db861"
+  },
+  {
+    "path": "results/README.md",
+    "bytes": 1351,
+    "sha256": "8f3278238142f70f63a7d4570f8f6775a621774bd1a0c1b1c62d14a0c8bac4a4"
+  },
+  {
+    "path": "results/repeat_validation_audit.json",
+    "bytes": 2828,
+    "sha256": "cefa7e94dd0d3a3da8222acf283114f20342e379fd639f10114801977d5e9312"
+  },
+  {
+    "path": "results/repeated_run_metrics.csv",
+    "bytes": 5808,
+    "sha256": "b64ed5a1e137d726b1fe6a196aef148ad80d65f5facd41754b5b59572b2deb4e"
+  },
+  {
+    "path": "results/reverse_single_run.md",
+    "bytes": 1180,
+    "sha256": "6dd42ce3bd93a2942c054d96823990e9245fa49f4e1cfdc3bdbf6a7af809b93c"
+  },
+  {
     "path": "run_research.py",
     "bytes": 12475,
     "sha256": "91a69b138b702e3e35163f680d11da3e0898ac4d7e327135fc6bad40723caf2a"
