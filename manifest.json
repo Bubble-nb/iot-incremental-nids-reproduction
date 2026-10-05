@@ -1,13 +1,13 @@
 [
   {
     "path": ".gitattributes",
-    "bytes": 15,
-    "sha256": "ba3d4e0a92188305f7cb5ff36e521d8e5df81a0cf5bc64028d9c86834e5096c0"
+    "bytes": 14,
+    "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
   },
   {
     "path": ".gitignore",
-    "bytes": 170,
-    "sha256": "9c5aa2f4d05be529c43b76db10a44685ce49aecde8c01fc5cb4013b5868f44c1"
+    "bytes": 162,
+    "sha256": "1d5d2b357473639c6ea9e418f340e0882bf26176840938e53192279c5c0175c2"
   },
   {
     "path": "AUTHOR_LICENSE",
@@ -16,8 +16,8 @@
   },
   {
     "path": "LICENSE",
-    "bytes": 1098,
-    "sha256": "ea9b00b3a9484e92e8fef04fc15fc49ab7e03cac304ba35d751cd4a5ccecae1b"
+    "bytes": 1077,
+    "sha256": "f5eee63fb76b6585d82d7c3e7e7c5136331316c3256e72cb6bdf587f234d20de"
   },
   {
     "path": "NOTICE.md",
