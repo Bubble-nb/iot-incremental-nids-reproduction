@@ -1,0 +1,488 @@
+{
+  "device": "cuda",
+  "checks": [
+    {
+      "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+      "method": "ft_mem",
+      "domain": "source",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+      "method": "ft_mem",
+      "domain": "target",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+      "method": "replay",
+      "domain": "source",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+      "method": "replay",
+      "domain": "target",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+      "method": "weighted",
+      "domain": "source",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+      "method": "weighted",
+      "domain": "target",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+      "method": "combined",
+      "domain": "source",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+      "method": "combined",
+      "domain": "target",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+      "method": "ft_mem",
+      "domain": "source",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+      "method": "ft_mem",
+      "domain": "target",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+      "method": "replay",
+      "domain": "source",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+      "method": "replay",
+      "domain": "target",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+      "method": "weighted",
+      "domain": "source",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+      "method": "weighted",
+      "domain": "target",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+      "method": "combined",
+      "domain": "source",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+      "method": "combined",
+      "domain": "target",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+      "method": "ft_mem",
+      "domain": "source",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+      "method": "ft_mem",
+      "domain": "target",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+      "method": "replay",
+      "domain": "source",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+      "method": "replay",
+      "domain": "target",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+      "method": "weighted",
+      "domain": "source",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+      "method": "weighted",
+      "domain": "target",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+      "method": "combined",
+      "domain": "source",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+      "method": "combined",
+      "domain": "target",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+      "method": "ft_mem",
+      "domain": "source",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+      "method": "ft_mem",
+      "domain": "target",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+      "method": "replay",
+      "domain": "source",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+      "method": "replay",
+      "domain": "target",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+      "method": "weighted",
+      "domain": "source",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+      "method": "weighted",
+      "domain": "target",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+      "method": "combined",
+      "domain": "source",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+      "method": "combined",
+      "domain": "target",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+      "method": "ft_mem",
+      "domain": "source",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+      "method": "ft_mem",
+      "domain": "target",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+      "method": "replay",
+      "domain": "source",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+      "method": "replay",
+      "domain": "target",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+      "method": "weighted",
+      "domain": "source",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+      "method": "weighted",
+      "domain": "target",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+      "method": "combined",
+      "domain": "source",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+      "method": "combined",
+      "domain": "target",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+      "method": "ft_mem",
+      "domain": "source",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+      "method": "ft_mem",
+      "domain": "target",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+      "method": "replay",
+      "domain": "source",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+      "method": "replay",
+      "domain": "target",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+      "method": "weighted",
+      "domain": "source",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+      "method": "weighted",
+      "domain": "target",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+      "method": "combined",
+      "domain": "source",
+      "n": 8455,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "bf542134c0a384e166194eb4877dd0d49b421f0a98001b5ec02c3583a3a62b47"
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+      "method": "combined",
+      "domain": "target",
+      "n": 5999,
+      "label_order_matches": true,
+      "checkpoint_predictions_match": true,
+      "max_logit_difference": 0.0,
+      "test_input_semantic_label_multiset_sha256": "6d73fb07ddc9496bb3d1c1a4b5c5c7d8c59e7415e03dc0e2be013d6f99ffa188"
+    }
+  ],
+  "test_membership_fixed_across_seeds": true,
+  "exclusion": "Numeric float32 model input equality; label not part of fingerprint; train plus validation pools.",
+  "limitation": "Post hoc fixed-checkpoint sensitivity, not retraining or independent-network validation."
+}

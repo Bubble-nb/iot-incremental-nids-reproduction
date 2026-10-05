@@ -1,0 +1,19 @@
+{
+  "record_date": "2026-10-05",
+  "scope": "当前检查点复核与新增反向训练环境；旧运行逐项版本以各protocol.json为准",
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9",
+  "torch": "2.11.0+cu128",
+  "cuda_runtime": "12.8",
+  "cudnn": 91900,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.0",
+    "pyarrow": "25.0.0",
+    "torchvision": "0.26.0+cu128"
+  },
+  "cpu": "Intel Core i7-14650HX",
+  "physical_memory_bytes": 16890322944
+}

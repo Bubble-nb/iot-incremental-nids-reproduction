@@ -5,6 +5,7 @@ One source checkpoint and identical memory are shared by all adaptations.
 Test predictions never select hyperparameters or checkpoints.
 """
 from pathlib import Path
+from datetime import datetime
 import argparse, copy, hashlib, json, math, os, random, sys, time
 from collections import Counter
 import numpy as np
@@ -166,7 +167,7 @@ train, valid, test, taskcla = get_loaders([args.source, args.target], 1, 0, 0, 6
                                          validation=.1, num_pkts=10, fields=['PL','IAT','DIR','WIN'], seed=1)
 # prep1 fixes the author train/test split. args.seed also affects the author's
 # random class order and training-internal validation selection before training.
-write_json(OUT / 'protocol.json', dict(date='2026-10-03', author_commit='842737730852c7c7c0955257c48ca72a22770343',
+write_json(OUT / 'protocol.json', dict(date=datetime.now().date().isoformat(), author_commit='842737730852c7c7c0955257c48ca72a22770343',
     dataset_sample_seed=1, training_seed=args.seed, author_index=args.author_index, device=device,
     torch=torch.__version__, max_epochs=args.epochs, lr=.1, lr_factor=3, lr_min=.0001, patience=20,
     batch_size=64, memory_per_class=25, replay_fraction=.5, weight_exponent=.5, weight_clip=[.2,5.],
