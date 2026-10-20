@@ -26,8 +26,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 7985,
-    "sha256": "a9f78637e8c506553ee9d15a4e24125141bb3b82329cfae97246d11b5cba8134"
+    "bytes": 8688,
+    "sha256": "06eeb827875a4a4f6e0bbc36b601f41353a188ac5522fe4d88900080fedb3bdd"
   },
   {
     "path": "audit_design_20261020.py",
@@ -93,6 +93,11 @@
     "path": "prepare_smoke.py",
     "bytes": 1604,
     "sha256": "b733b2d6173dbd3f56f48cf142d8a26221c737ee1d7317b1bd956ed33f1117ab"
+  },
+  {
+    "path": "recompute_calibration_from_saved.py",
+    "bytes": 6429,
+    "sha256": "1a28c02786f27da1a6e231921f6cdcf54654c0d0819a37f70c5a112a4a22324d"
   },
   {
     "path": "requirements-audit.txt",
