@@ -1,0 +1,22 @@
+{
+  "source": "ton_iot",
+  "target": "iot_nidd",
+  "training_seed": 1,
+  "dataset_sample_seed": 1,
+  "author_commit": "842737730852c7c7c0955257c48ca72a22770343",
+  "max_epochs": 200,
+  "bias_epochs": 200,
+  "val_exemplar_percentage": 0.1,
+  "temperature": 2,
+  "memory_per_class": 25,
+  "lr": 0.1,
+  "lr_min": 0.0001,
+  "lr_factor": 3,
+  "patience": 20,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay": 0,
+  "scope": "Independent BiC source training with author-held-out exemplars; not the shared-source five-way ablation.",
+  "implementation_note": "Preserve author criterion float(gkd): distillation term is detached. Only evaluates this implementation.",
+  "compatibility": "GPU-safe vectorized eval and class metrics, NumPy float64 independent reporting; no change to training/bias correction code."
+}

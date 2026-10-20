@@ -1,0 +1,38 @@
+{
+  "frozen_at": "2026-10-19T20:03:03.122023",
+  "rule": {
+    "version": 1,
+    "primary_fpr_budget": 0.005,
+    "sensitivity_budgets": [
+      0.01,
+      0.05
+    ],
+    "threshold": "largest observed benign validation probability with empirical count(p<threshold)/n <= budget",
+    "prediction": "p(benign)>=threshold => benign; otherwise highest-probability non-benign label",
+    "arithmetic": "NumPy float64 softmax, same boundary in validation and test",
+    "methods": [
+      "ft",
+      "ft_mem",
+      "replay",
+      "weighted",
+      "combined"
+    ],
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "directions": [
+      [
+        "iot_nidd",
+        "ton_iot"
+      ],
+      [
+        "ton_iot",
+        "iot_nidd"
+      ]
+    ],
+    "evidence_scope": "Post-hoc fixed-rule cross-run assessment. Existing test results were previously inspected; not independent confirmatory evidence.",
+    "training": "No retraining. Reload saved checkpoints only to recover validation logits; saved test logits unchanged."
+  }
+}

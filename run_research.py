@@ -21,7 +21,10 @@ parser.add_argument('--source', default='iot_nidd')
 parser.add_argument('--target', default='ton_iot')
 parser.add_argument('--methods', nargs='+', default=['ft', 'ft_mem', 'replay', 'weighted', 'combined'])
 parser.add_argument('--author-index', action='store_true')
+parser.add_argument('--output-root', type=Path, default=ROOT / 'research_results',
+                    help='Separate result root; use a fresh folder for a full recorded run.')
 args = parser.parse_args()
+args.output_root = args.output_root.resolve()
 src = ROOT / ('compatibility_incremental_nids' if args.author_index else 'research_incremental_nids') / 'src'
 os.chdir(src)
 sys.path.insert(0, str(src))
@@ -36,7 +39,7 @@ from utils import seed_everything
 torch.set_num_threads(4)
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 suffix = 'author_index' if args.author_index else 'row_index_fixed'
-OUT = ROOT / 'research_results' / f'{args.source}_to_{args.target}_seed{args.seed}_{suffix}'
+OUT = args.output_root.resolve() / f'{args.source}_to_{args.target}_seed{args.seed}_{suffix}'
 OUT.mkdir(parents=True, exist_ok=True)
 run_identity = dict(source=args.source, target=args.target, training_seed=args.seed,
                     dataset_sample_seed=1, max_epochs=args.epochs,

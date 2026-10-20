@@ -1,4 +1,4 @@
-﻿direction,seed,method,domain,n,macro_f1,accuracy,false_positive_rate,attack_recall
+direction,seed,method,domain,n,macro_f1,accuracy,false_positive_rate,attack_recall
 iot_nidd -> ton_iot,1,source,source,5999,0.8370244092119844,0.9646607767961327,0.008802143130501339,0.9884819846426461
 iot_nidd -> ton_iot,1,source,target,8455,0.08301109958098853,0.3373151981076286,0.028602860286028604,0.1204608938547486
 iot_nidd -> ton_iot,1,ft,source,5999,0.08181846225040149,0.2572095349224871,0.5836203597397627,0.8966331955109273

@@ -1,0 +1,12 @@
+{
+  "repeats": 5,
+  "seed_base": 20261003,
+  "rng": "NumPy default_rng(seed_base + repeat); identical seed rule for each field and method",
+  "delta": "baseline minus permuted Macro-F1; positive means drop",
+  "checkpoints": {
+    "research_results\\iot_nidd_to_ton_iot_seed1_row_index_fixed\\ft_mem\\checkpoint.pt": "96fff974332324ab2bdbbc9c3bc68521eba228c26de445bb4c732789db564317",
+    "research_results\\iot_nidd_to_ton_iot_seed1_row_index_fixed\\combined\\checkpoint.pt": "5ae99c2b7dd7ce6181a004fb6fc9474ec7cc2182afba8dbffb5e8a406f9acf5e"
+  },
+  "scope": "Deterministic checkpoint re-evaluation; historical records preserved separately for comparison.",
+  "training": "none"
+}
