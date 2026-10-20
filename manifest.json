@@ -26,13 +26,23 @@
   },
   {
     "path": "README.md",
-    "bytes": 7059,
-    "sha256": "72dc91848939b656f232a08598aff864dcbb38d21c5a95594c832f48eeffddd4"
+    "bytes": 7985,
+    "sha256": "a9f78637e8c506553ee9d15a4e24125141bb3b82329cfae97246d11b5cba8134"
+  },
+  {
+    "path": "audit_design_20261020.py",
+    "bytes": 6896,
+    "sha256": "507ebf335ae0cb2d1005d923bb6aee62a66c346a24ddc40dbb118ff9ba02c24d"
   },
   {
     "path": "audit_input_sensitivity.py",
     "bytes": 7066,
     "sha256": "97223aaf5380448eaef1e0b7dfaba050e301f0bd7533eed2a7740c719a3d8bb6"
+  },
+  {
+    "path": "audit_label_conflicts_20261020.py",
+    "bytes": 3044,
+    "sha256": "a33a4a78a7ca81881dee9bb1f57b8e856355dcfe60d40e56bf1cf87490338bc1"
   },
   {
     "path": "audit_repeat_validation.py",
@@ -85,6 +95,11 @@
     "sha256": "b733b2d6173dbd3f56f48cf142d8a26221c737ee1d7317b1bd956ed33f1117ab"
   },
   {
+    "path": "requirements-audit.txt",
+    "bytes": 125,
+    "sha256": "0ec5cac090062fe50cb384333a724ee68ed08f9b048f353f248c48da83838565"
+  },
+  {
     "path": "requirements-observed.txt",
     "bytes": 115,
     "sha256": "ea1499975e2076020d89b7490cc21b8282fb16180ea82cf38ec2f1c49ee60ebb"
@@ -128,6 +143,36 @@
     "path": "results/author_bic/ton_iot_to_iot_nidd_seed1_author_bic/protocol.json",
     "bytes": 811,
     "sha256": "8445a1f3064fd2ecf15f19f7b227cef7f13f51bdc54eece97c9523cb918d9648"
+  },
+  {
+    "path": "results/design_audit/复核摘要.json",
+    "bytes": 4968,
+    "sha256": "0f2a6c424771c5549f58f5cc8e6e2c8401a137bcc146cf0342dc41ab7ee305e3"
+  },
+  {
+    "path": "results/design_audit/正向种子1逐类贡献.csv",
+    "bytes": 1059,
+    "sha256": "fe4b11581492ce89cd59e0a88e0daac51c75e67c0f9ecfed04780fdfae42ad05"
+  },
+  {
+    "path": "results/design_audit/训练类别权重.csv",
+    "bytes": 8076,
+    "sha256": "fa0e746dcc7051516bffca886337bc16113192cf36981286cbbd5da257d985a1"
+  },
+  {
+    "path": "results/design_audit/逐运行稀有类敏感性.csv",
+    "bytes": 8903,
+    "sha256": "f083230115cb5ec9446571c2254b56b78ba5983f89fddc22b77db30063302146"
+  },
+  {
+    "path": "results/design_audit/重复输入标签冲突.json",
+    "bytes": 6236,
+    "sha256": "3d0237c592ef3048a10443d314aaea23be8a929f58ece8744707b840d617ae29"
+  },
+  {
+    "path": "results/design_audit/验证预算精度.csv",
+    "bytes": 601,
+    "sha256": "71d520a68bf8c3116af9466a6b938e79eb67144132bd7309c94203a11ddfb2a7"
   },
   {
     "path": "results/fixed_calibration/frozen_protocol.json",

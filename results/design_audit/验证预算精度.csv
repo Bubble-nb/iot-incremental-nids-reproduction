@@ -1,0 +1,7 @@
+﻿run,benign_validation_n,max_empirical_false_alarms,maximum_empirical_fpr_percent,exact_two_sided_95pct_upper_fpr_percent
+iot_nidd_to_ton_iot_seed1_row_index_fixed,637,3,0.47095761381475665,1.3701197487022798
+iot_nidd_to_ton_iot_seed2_row_index_fixed,637,3,0.47095761381475665,1.3701197487022798
+iot_nidd_to_ton_iot_seed3_row_index_fixed,637,3,0.47095761381475665,1.3701197487022798
+ton_iot_to_iot_nidd_seed1_row_index_fixed,625,3,0.48,1.3963046098982586
+ton_iot_to_iot_nidd_seed2_row_index_fixed,625,3,0.48,1.3963046098982586
+ton_iot_to_iot_nidd_seed3_row_index_fixed,625,3,0.48,1.3963046098982586

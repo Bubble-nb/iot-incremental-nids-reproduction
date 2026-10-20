@@ -1,0 +1,150 @@
+{
+  "prediction_files": 72,
+  "top_contributions": [
+    {
+      "label": "dos-tcp",
+      "support": 5,
+      "ft_mem_f1": 0.0,
+      "combined_f1": 50.0,
+      "delta_f1_points": 50.0,
+      "contribution_to_macro_f1_points": 4.166666666666667
+    },
+    {
+      "label": "mitm-arpspoof",
+      "support": 161,
+      "ft_mem_f1": 9.30232558139535,
+      "combined_f1": 48.23943661971831,
+      "delta_f1_points": 38.93711103832296,
+      "contribution_to_macro_f1_points": 3.24475925319358
+    },
+    {
+      "label": "malwr-brutef-http",
+      "support": 379,
+      "ft_mem_f1": 95.76719576719577,
+      "combined_f1": 96.47058823529412,
+      "delta_f1_points": 0.7033924680983432,
+      "contribution_to_macro_f1_points": 0.058616039008195266
+    },
+    {
+      "label": "dos-http",
+      "support": 1834,
+      "ft_mem_f1": 98.58772406300923,
+      "combined_f1": 98.69494290375204,
+      "delta_f1_points": 0.10721884074280297,
+      "contribution_to_macro_f1_points": 0.008934903395233581
+    }
+  ],
+  "combined_minus_ft_mem_macro_f1": 7.158681796065121,
+  "benign_weights": [
+    {
+      "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+      "label": "benign",
+      "weight": 0.428928361899681,
+      "at_upper_clip": false,
+      "at_lower_clip": false
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+      "label": "benign",
+      "weight": 0.428928361899681,
+      "at_upper_clip": false,
+      "at_lower_clip": false
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+      "label": "benign",
+      "weight": 0.428928361899681,
+      "at_upper_clip": false,
+      "at_lower_clip": false
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+      "label": "benign",
+      "weight": 0.3682368006536974,
+      "at_upper_clip": false,
+      "at_lower_clip": false
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+      "label": "benign",
+      "weight": 0.3682368006536974,
+      "at_upper_clip": false,
+      "at_lower_clip": false
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+      "label": "benign",
+      "weight": 0.3682368006536974,
+      "at_upper_clip": false,
+      "at_lower_clip": false
+    }
+  ],
+  "clipped_upper_by_run": {
+    "iot_nidd_to_ton_iot_seed1_row_index_fixed": 7,
+    "iot_nidd_to_ton_iot_seed2_row_index_fixed": 7,
+    "iot_nidd_to_ton_iot_seed3_row_index_fixed": 7,
+    "ton_iot_to_iot_nidd_seed1_row_index_fixed": 9,
+    "ton_iot_to_iot_nidd_seed2_row_index_fixed": 9,
+    "ton_iot_to_iot_nidd_seed3_row_index_fixed": 9
+  },
+  "budgets": [
+    {
+      "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+      "benign_validation_n": 637,
+      "max_empirical_false_alarms": 3,
+      "maximum_empirical_fpr_percent": 0.47095761381475665,
+      "exact_two_sided_95pct_upper_fpr_percent": 1.3701197487022798
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+      "benign_validation_n": 637,
+      "max_empirical_false_alarms": 3,
+      "maximum_empirical_fpr_percent": 0.47095761381475665,
+      "exact_two_sided_95pct_upper_fpr_percent": 1.3701197487022798
+    },
+    {
+      "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+      "benign_validation_n": 637,
+      "max_empirical_false_alarms": 3,
+      "maximum_empirical_fpr_percent": 0.47095761381475665,
+      "exact_two_sided_95pct_upper_fpr_percent": 1.3701197487022798
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+      "benign_validation_n": 625,
+      "max_empirical_false_alarms": 3,
+      "maximum_empirical_fpr_percent": 0.48,
+      "exact_two_sided_95pct_upper_fpr_percent": 1.3963046098982586
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+      "benign_validation_n": 625,
+      "max_empirical_false_alarms": 3,
+      "maximum_empirical_fpr_percent": 0.48,
+      "exact_two_sided_95pct_upper_fpr_percent": 1.3963046098982586
+    },
+    {
+      "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+      "benign_validation_n": 625,
+      "max_empirical_false_alarms": 3,
+      "maximum_empirical_fpr_percent": 0.48,
+      "exact_two_sided_95pct_upper_fpr_percent": 1.3963046098982586
+    }
+  ],
+  "replay_seed1_expected_old_draws_per_epoch": 8992,
+  "replay_seed1_old_draws_per_memory_item": 38.926406926406926,
+  "replay_seed1_expected_target_unique_fraction": 0.3977036765402283,
+  "forward_replay_gain_mean": 4.1061066289852635,
+  "forward_replay_gains": [
+    6.317584277580565,
+    5.013041908250173,
+    0.9876937011250533
+  ],
+  "forward_replay_gain_ttest_two_sided_p": 0.12469447117714416,
+  "sign_test_all_positive_two_sided_p": {
+    "3": 0.25,
+    "5": 0.0625,
+    "6": 0.03125
+  },
+  "limitation": "Rare-class threshold and all statistical checks are retrospective; repeated seeds share fixed test samples. Binomial intervals illustrate ideal independent fixed-threshold resolution and do not correct adaptive model/threshold selection or dependent duplicate inputs."
+}

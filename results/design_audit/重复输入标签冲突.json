@@ -1,0 +1,258 @@
+[
+  {
+    "direction": "iot_nidd_to_ton_iot",
+    "domain": "source",
+    "training_validation_rows": 14132,
+    "distinct_training_validation_inputs": 6751,
+    "training_validation_inputs_with_multiple_labels": 89,
+    "test_rows": 5999,
+    "test_exact_input_matches": 3513,
+    "matched_test_rows_with_same_label": 3446,
+    "matched_test_rows_with_conflicting_label": 982,
+    "mitm_conflict_pairs": 0,
+    "top_conflict_pairs": [
+      {
+        "test_label": "benign",
+        "training_label": "dos-http",
+        "rows": 860
+      },
+      {
+        "test_label": "benign",
+        "training_label": "infog-scan-port",
+        "rows": 853
+      },
+      {
+        "test_label": "benign",
+        "training_label": "malwr-brutef-telnet",
+        "rows": 852
+      },
+      {
+        "test_label": "dos-tcp-syn",
+        "training_label": "dos-tcp-ack",
+        "rows": 51
+      },
+      {
+        "test_label": "dos-tcp-ack",
+        "training_label": "dos-tcp-syn",
+        "rows": 35
+      },
+      {
+        "test_label": "infog-scan-host",
+        "training_label": "benign",
+        "rows": 18
+      },
+      {
+        "test_label": "dos-http",
+        "training_label": "benign",
+        "rows": 16
+      },
+      {
+        "test_label": "dos-http",
+        "training_label": "malwr-brutef-telnet",
+        "rows": 14
+      },
+      {
+        "test_label": "dos-http",
+        "training_label": "infog-scan-port",
+        "rows": 14
+      },
+      {
+        "test_label": "benign",
+        "training_label": "dos-tcp-ack",
+        "rows": 1
+      }
+    ]
+  },
+  {
+    "direction": "iot_nidd_to_ton_iot",
+    "domain": "target",
+    "training_validation_rows": 19714,
+    "distinct_training_validation_inputs": 14896,
+    "training_validation_inputs_with_multiple_labels": 6,
+    "test_rows": 8455,
+    "test_exact_input_matches": 2230,
+    "matched_test_rows_with_same_label": 2229,
+    "matched_test_rows_with_conflicting_label": 404,
+    "mitm_conflict_pairs": 396,
+    "top_conflict_pairs": [
+      {
+        "test_label": "benign",
+        "training_label": "mitm-arpspoof",
+        "rows": 266
+      },
+      {
+        "test_label": "mitm-arpspoof",
+        "training_label": "benign",
+        "rows": 130
+      },
+      {
+        "test_label": "benign",
+        "training_label": "inject-xss",
+        "rows": 3
+      },
+      {
+        "test_label": "benign",
+        "training_label": "malwr-brutef-http",
+        "rows": 3
+      },
+      {
+        "test_label": "dos-http",
+        "training_label": "inject-xss",
+        "rows": 2
+      },
+      {
+        "test_label": "dos-tcp",
+        "training_label": "dos-http",
+        "rows": 2
+      },
+      {
+        "test_label": "dos-tcp",
+        "training_label": "inject-xss",
+        "rows": 2
+      },
+      {
+        "test_label": "dos-http",
+        "training_label": "dos-tcp",
+        "rows": 1
+      },
+      {
+        "test_label": "inject-xss",
+        "training_label": "benign",
+        "rows": 1
+      },
+      {
+        "test_label": "inject-xss",
+        "training_label": "malwr-brutef-http",
+        "rows": 1
+      }
+    ]
+  },
+  {
+    "direction": "ton_iot_to_iot_nidd",
+    "domain": "source",
+    "training_validation_rows": 19714,
+    "distinct_training_validation_inputs": 14896,
+    "training_validation_inputs_with_multiple_labels": 6,
+    "test_rows": 8455,
+    "test_exact_input_matches": 2230,
+    "matched_test_rows_with_same_label": 2229,
+    "matched_test_rows_with_conflicting_label": 404,
+    "mitm_conflict_pairs": 396,
+    "top_conflict_pairs": [
+      {
+        "test_label": "benign",
+        "training_label": "mitm-arpspoof",
+        "rows": 266
+      },
+      {
+        "test_label": "mitm-arpspoof",
+        "training_label": "benign",
+        "rows": 130
+      },
+      {
+        "test_label": "benign",
+        "training_label": "malwr-brutef-http",
+        "rows": 3
+      },
+      {
+        "test_label": "benign",
+        "training_label": "inject-xss",
+        "rows": 3
+      },
+      {
+        "test_label": "dos-http",
+        "training_label": "inject-xss",
+        "rows": 2
+      },
+      {
+        "test_label": "dos-tcp",
+        "training_label": "dos-http",
+        "rows": 2
+      },
+      {
+        "test_label": "dos-tcp",
+        "training_label": "inject-xss",
+        "rows": 2
+      },
+      {
+        "test_label": "dos-http",
+        "training_label": "dos-tcp",
+        "rows": 1
+      },
+      {
+        "test_label": "inject-xss",
+        "training_label": "malwr-brutef-http",
+        "rows": 1
+      },
+      {
+        "test_label": "inject-xss",
+        "training_label": "benign",
+        "rows": 1
+      }
+    ]
+  },
+  {
+    "direction": "ton_iot_to_iot_nidd",
+    "domain": "target",
+    "training_validation_rows": 14132,
+    "distinct_training_validation_inputs": 6751,
+    "training_validation_inputs_with_multiple_labels": 89,
+    "test_rows": 5999,
+    "test_exact_input_matches": 3513,
+    "matched_test_rows_with_same_label": 3446,
+    "matched_test_rows_with_conflicting_label": 982,
+    "mitm_conflict_pairs": 0,
+    "top_conflict_pairs": [
+      {
+        "test_label": "benign",
+        "training_label": "dos-http",
+        "rows": 860
+      },
+      {
+        "test_label": "benign",
+        "training_label": "infog-scan-port",
+        "rows": 853
+      },
+      {
+        "test_label": "benign",
+        "training_label": "malwr-brutef-telnet",
+        "rows": 852
+      },
+      {
+        "test_label": "dos-tcp-syn",
+        "training_label": "dos-tcp-ack",
+        "rows": 51
+      },
+      {
+        "test_label": "dos-tcp-ack",
+        "training_label": "dos-tcp-syn",
+        "rows": 35
+      },
+      {
+        "test_label": "infog-scan-host",
+        "training_label": "benign",
+        "rows": 18
+      },
+      {
+        "test_label": "dos-http",
+        "training_label": "benign",
+        "rows": 16
+      },
+      {
+        "test_label": "dos-http",
+        "training_label": "infog-scan-port",
+        "rows": 14
+      },
+      {
+        "test_label": "dos-http",
+        "training_label": "malwr-brutef-telnet",
+        "rows": 14
+      },
+      {
+        "test_label": "benign",
+        "training_label": "dos-tcp-ack",
+        "rows": 1
+      }
+    ]
+  }
+]
