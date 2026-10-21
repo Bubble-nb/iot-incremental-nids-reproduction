@@ -26,8 +26,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 8747,
-    "sha256": "cd217a8ed572a9898f5c4223d4381414ff3683f9884a18643f4f2e7a13fada46"
+    "bytes": 9420,
+    "sha256": "154282f0676f7b74f819e54fc0368799983f494f47bea56c443ae42523c83d25"
   },
   {
     "path": "audit_design_20261020.py",
@@ -48,6 +48,11 @@
     "path": "audit_repeat_validation.py",
     "bytes": 1968,
     "sha256": "c6d5f97ff1d30dbef9bb8656c534b20e0ff5e7b1c94f2c1ff05d30839f16156f"
+  },
+  {
+    "path": "audit_test_collision_groups.py",
+    "bytes": 8176,
+    "sha256": "6f9833870e017d3f9c54f9a5cad1b32112a26ad0102db2b6a189a89f6bd160ef"
   },
   {
     "path": "bootstrap_author_code.py",
@@ -98,6 +103,11 @@
     "path": "recompute_calibration_from_saved.py",
     "bytes": 6429,
     "sha256": "1a28c02786f27da1a6e231921f6cdcf54654c0d0819a37f70c5a112a4a22324d"
+  },
+  {
+    "path": "recompute_group_attribution.py",
+    "bytes": 3870,
+    "sha256": "228679b0aa88e0a9bd835590dbee333e5595282c9e0437b696e0342757efb096"
   },
   {
     "path": "requirements-audit.txt",
@@ -253,6 +263,36 @@
     "path": "results/subset_metrics.csv",
     "bytes": 26830,
     "sha256": "0c57296d2260e5038a4f9b0dccce8a4b1d0cbc3d7054544ccd967cbd2b55924d"
+  },
+  {
+    "path": "results/test_collision_groups/README.md",
+    "bytes": 1738,
+    "sha256": "b258431bf0f31466331289cca9b503b36e4e1011f3dc7e7d3124a1ac58cffe57"
+  },
+  {
+    "path": "results/test_collision_groups/group_class_recall.csv",
+    "bytes": 13770,
+    "sha256": "a46ab249b9c339883d98f4a86f92b7926ce924fb54d5da68c9c76356d7755750"
+  },
+  {
+    "path": "results/test_collision_groups/group_prediction_attribution.csv",
+    "bytes": 23445,
+    "sha256": "0b00d9eec96133ee6e16e54ac203980ac2e622849d8035c363e99cd97db00d9b"
+  },
+  {
+    "path": "results/test_collision_groups/groups.json",
+    "bytes": 4809,
+    "sha256": "5b5011ff7eada836a1b6321215d7c690fa362b7d96a1763e329ec6b686582cd9"
+  },
+  {
+    "path": "results/test_collision_groups/protocol.json",
+    "bytes": 663,
+    "sha256": "27fa331bc23bf26fbb623604b59f6df4fdef07cc2b72b5ae4fe42de1c5d1f488"
+  },
+  {
+    "path": "results/test_collision_groups/独立复算.json",
+    "bytes": 316,
+    "sha256": "cdb8a62cf5f6dcfa6d1aad8fe04197a302ae9614230c173f6fcb70cca80e1ced"
   },
   {
     "path": "results/training_resources.csv",

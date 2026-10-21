@@ -96,3 +96,9 @@ FT 和 FT-Mem 使用原作者训练框架。Replay 将批次改为 32 条目标�
 `recompute_calibration_from_saved.py` 只用提交包中的72份主实验预测、30份目标验证logits和训练日志，重新选择0.5%、1%、5%阈值，并复算180个双域运行点。它不加载模型或训练数据，不需要GPU。脚本逐项核对原CSV，并核对验证logits的交叉熵是否匹配30个检查点的最佳验证损失。
 
 在课程提交包内，可直接运行 `python 03代码/补充核验/recompute_calibration_from_saved.py`；从公开仓库运行时，以 `--main-results` 指向提交包的“主实验逐样本预测”，以 `--calibration-results` 指向“固定阈值校准”。依赖见 `requirements-audit.txt`。
+
+## 相同输入组的误报分解
+
+`results/test_collision_groups`保存两域最大正常/攻击异标签输入组的构成、72行预测分解和144行逐类正确数。`audit_test_collision_groups.py`核验特征相等性；`recompute_group_attribution.py`只用提交包中的分组索引、预测与验证logits复算648个数值，无需GPU。12份分组NPZ与主实验预测保存在课程提交包的`06数据核验与结果`，不在公开仓库托管。
+
+公开仓库使用复算脚本时，分别通过`--main-results`、`--calibration-results`和`--group-results`指向提交包的主实验逐样本预测、固定阈值校准和测试组误报分解目录。

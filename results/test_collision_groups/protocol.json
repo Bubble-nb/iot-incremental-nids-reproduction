@@ -1,0 +1,7 @@
+{
+  "match": "Exact float32 four-field ten-packet input, treating signed zeros as equal; labels excluded from match.",
+  "group_selection": "Largest benign-containing multi-label identical-input test group, selected independently of predictions.",
+  "calibration": "Archived 0.5% target-validation budget; same float64 softmax and tied-probability boundary.",
+  "attribution": "FPR contributions use the full-domain benign denominator. Two-block Shapley decomposition assigns the exact Macro-F1 change between group-only and other-only prediction replacements; this is arithmetic attribution, not a causal training intervention.",
+  "training_performed": false
+}

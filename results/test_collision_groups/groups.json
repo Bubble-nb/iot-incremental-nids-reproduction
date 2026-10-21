@@ -1,0 +1,170 @@
+[
+  {
+    "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+    "dataset": "iot_nidd",
+    "domain": "source",
+    "input_sha256": "d9cd7761e6dbe53ebde2f9836d4c17a146e6748c3aa286c2b7da6b5c73a47057",
+    "n": 866,
+    "labels": {
+      "benign": 852,
+      "dos-http": 14
+    },
+    "benign_test_total": 2613,
+    "group_benign_total": 852,
+    "max_fpr_contribution_points": 32.60619977037887
+  },
+  {
+    "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+    "dataset": "ton_iot",
+    "domain": "target",
+    "input_sha256": "40b6593c519f3b9aa3c9b76859f562ab7b02e083ba35df45183818bd33436a3d",
+    "n": 396,
+    "labels": {
+      "mitm-arpspoof": 130,
+      "benign": 266
+    },
+    "benign_test_total": 2727,
+    "group_benign_total": 266,
+    "max_fpr_contribution_points": 9.754308764209755
+  },
+  {
+    "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+    "dataset": "iot_nidd",
+    "domain": "source",
+    "input_sha256": "d9cd7761e6dbe53ebde2f9836d4c17a146e6748c3aa286c2b7da6b5c73a47057",
+    "n": 866,
+    "labels": {
+      "benign": 852,
+      "dos-http": 14
+    },
+    "benign_test_total": 2613,
+    "group_benign_total": 852,
+    "max_fpr_contribution_points": 32.60619977037887
+  },
+  {
+    "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+    "dataset": "ton_iot",
+    "domain": "target",
+    "input_sha256": "40b6593c519f3b9aa3c9b76859f562ab7b02e083ba35df45183818bd33436a3d",
+    "n": 396,
+    "labels": {
+      "mitm-arpspoof": 130,
+      "benign": 266
+    },
+    "benign_test_total": 2727,
+    "group_benign_total": 266,
+    "max_fpr_contribution_points": 9.754308764209755
+  },
+  {
+    "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+    "dataset": "iot_nidd",
+    "domain": "source",
+    "input_sha256": "d9cd7761e6dbe53ebde2f9836d4c17a146e6748c3aa286c2b7da6b5c73a47057",
+    "n": 866,
+    "labels": {
+      "benign": 852,
+      "dos-http": 14
+    },
+    "benign_test_total": 2613,
+    "group_benign_total": 852,
+    "max_fpr_contribution_points": 32.60619977037887
+  },
+  {
+    "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+    "dataset": "ton_iot",
+    "domain": "target",
+    "input_sha256": "40b6593c519f3b9aa3c9b76859f562ab7b02e083ba35df45183818bd33436a3d",
+    "n": 396,
+    "labels": {
+      "mitm-arpspoof": 130,
+      "benign": 266
+    },
+    "benign_test_total": 2727,
+    "group_benign_total": 266,
+    "max_fpr_contribution_points": 9.754308764209755
+  },
+  {
+    "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+    "dataset": "ton_iot",
+    "domain": "source",
+    "input_sha256": "40b6593c519f3b9aa3c9b76859f562ab7b02e083ba35df45183818bd33436a3d",
+    "n": 396,
+    "labels": {
+      "mitm-arpspoof": 130,
+      "benign": 266
+    },
+    "benign_test_total": 2727,
+    "group_benign_total": 266,
+    "max_fpr_contribution_points": 9.754308764209755
+  },
+  {
+    "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+    "dataset": "iot_nidd",
+    "domain": "target",
+    "input_sha256": "d9cd7761e6dbe53ebde2f9836d4c17a146e6748c3aa286c2b7da6b5c73a47057",
+    "n": 866,
+    "labels": {
+      "benign": 852,
+      "dos-http": 14
+    },
+    "benign_test_total": 2613,
+    "group_benign_total": 852,
+    "max_fpr_contribution_points": 32.60619977037887
+  },
+  {
+    "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+    "dataset": "ton_iot",
+    "domain": "source",
+    "input_sha256": "40b6593c519f3b9aa3c9b76859f562ab7b02e083ba35df45183818bd33436a3d",
+    "n": 396,
+    "labels": {
+      "mitm-arpspoof": 130,
+      "benign": 266
+    },
+    "benign_test_total": 2727,
+    "group_benign_total": 266,
+    "max_fpr_contribution_points": 9.754308764209755
+  },
+  {
+    "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+    "dataset": "iot_nidd",
+    "domain": "target",
+    "input_sha256": "d9cd7761e6dbe53ebde2f9836d4c17a146e6748c3aa286c2b7da6b5c73a47057",
+    "n": 866,
+    "labels": {
+      "benign": 852,
+      "dos-http": 14
+    },
+    "benign_test_total": 2613,
+    "group_benign_total": 852,
+    "max_fpr_contribution_points": 32.60619977037887
+  },
+  {
+    "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+    "dataset": "ton_iot",
+    "domain": "source",
+    "input_sha256": "40b6593c519f3b9aa3c9b76859f562ab7b02e083ba35df45183818bd33436a3d",
+    "n": 396,
+    "labels": {
+      "mitm-arpspoof": 130,
+      "benign": 266
+    },
+    "benign_test_total": 2727,
+    "group_benign_total": 266,
+    "max_fpr_contribution_points": 9.754308764209755
+  },
+  {
+    "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+    "dataset": "iot_nidd",
+    "domain": "target",
+    "input_sha256": "d9cd7761e6dbe53ebde2f9836d4c17a146e6748c3aa286c2b7da6b5c73a47057",
+    "n": 866,
+    "labels": {
+      "benign": 852,
+      "dos-http": 14
+    },
+    "benign_test_total": 2613,
+    "group_benign_total": 852,
+    "max_fpr_contribution_points": 32.60619977037887
+  }
+]

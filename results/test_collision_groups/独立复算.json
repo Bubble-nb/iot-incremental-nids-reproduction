@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "method_domain_rows": 72,
+  "calibrated_rows": 60,
+  "numeric_checks": 648,
+  "training_performed": false,
+  "gpu_required": false,
+  "scope": "Checks archived group memberships and prediction attribution; original feature equality is checked separately by audit_test_collision_groups.py."
+}
