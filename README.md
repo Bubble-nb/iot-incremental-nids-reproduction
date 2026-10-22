@@ -102,3 +102,5 @@ FT 和 FT-Mem 使用原作者训练框架。Replay 将批次改为 32 条目标�
 `results/test_collision_groups`保存两域最大正常/攻击异标签输入组的构成、72行预测分解和144行逐类正确数。`audit_test_collision_groups.py`核验特征相等性；`recompute_group_attribution.py`只用提交包中的分组索引、预测与验证logits复算648个数值，无需GPU。12份分组NPZ与主实验预测保存在课程提交包的`06数据核验与结果`，不在公开仓库托管。
 
 公开仓库使用复算脚本时，分别通过`--main-results`、`--calibration-results`和`--group-results`指向提交包的主实验逐样本预测、固定阈值校准和测试组误报分解目录。
+
+`recompute_group_decision_tradeoff.py`固定其余Combined预测，复算TON_IoT冲突组全判MITM或全判正常的结果（88.35%与85.25%）；该3.10个百分点差值与校准的双顺序平均分解分开报告。详见`results/test_collision_groups`。

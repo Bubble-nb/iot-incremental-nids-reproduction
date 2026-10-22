@@ -26,8 +26,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 9420,
-    "sha256": "154282f0676f7b74f819e54fc0368799983f494f47bea56c443ae42523c83d25"
+    "bytes": 9682,
+    "sha256": "d5c9f4ea09ede6fd17050cc8da55ba0431ca5dcb82c3e1ba6344b6ef45fe8490"
   },
   {
     "path": "audit_design_20261020.py",
@@ -108,6 +108,11 @@
     "path": "recompute_group_attribution.py",
     "bytes": 3870,
     "sha256": "228679b0aa88e0a9bd835590dbee333e5595282c9e0437b696e0342757efb096"
+  },
+  {
+    "path": "recompute_group_decision_tradeoff.py",
+    "bytes": 3366,
+    "sha256": "be67f07a6bd42b237fa60a0e885ab93f86509522c0952466c811b64cd7e1817f"
   },
   {
     "path": "requirements-audit.txt",
@@ -266,8 +271,18 @@
   },
   {
     "path": "results/test_collision_groups/README.md",
-    "bytes": 1738,
-    "sha256": "b258431bf0f31466331289cca9b503b36e4e1011f3dc7e7d3124a1ac58cffe57"
+    "bytes": 2766,
+    "sha256": "464a0dc5cb19d4809245b467da7e727e31505dcf7b70b49c070ba180e5f08287"
+  },
+  {
+    "path": "results/test_collision_groups/fixed_other_predictions.json",
+    "bytes": 775,
+    "sha256": "58489aa5264578afb63beaba379197a4af978fff3ffbcbc78374b0dcf072fd89"
+  },
+  {
+    "path": "results/test_collision_groups/fixed_other_predictions_per_class.csv",
+    "bytes": 1952,
+    "sha256": "f014a5ad29cbb130eb77ce6fd38654bf45d58fa73d1d994b7f744d2f8bf45a93"
   },
   {
     "path": "results/test_collision_groups/group_class_recall.csv",

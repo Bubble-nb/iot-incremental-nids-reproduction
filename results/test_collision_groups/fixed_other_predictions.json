@@ -1,0 +1,18 @@
+{
+  "direction": "IoT-NID to TON_IoT",
+  "seed": 1,
+  "model": "Combined",
+  "group_n": 396,
+  "group_benign_n": 266,
+  "group_mitm_n": 130,
+  "benign_test_n": 2727,
+  "mitm_test_n": 161,
+  "ft_mem_macro_f1": 81.18778796387292,
+  "group_all_mitm_macro_f1": 88.34646975993805,
+  "group_all_benign_macro_f1": 85.24579263067052,
+  "group_decision_effect_points": 3.100677129267524,
+  "combined_ft_mem_gap_points": 7.158681796065125,
+  "group_effect_fraction_of_gap": 0.4331352080730641,
+  "interpretation": "Exact prediction replacement with all other Combined predictions fixed. This is a reference-dependent arithmetic comparison, not a causal attribution of training effects. It differs from the two-order Shapley calibration decomposition.",
+  "training_performed": false
+}

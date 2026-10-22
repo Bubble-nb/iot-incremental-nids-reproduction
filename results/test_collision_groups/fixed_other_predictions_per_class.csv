@@ -1,0 +1,37 @@
+﻿condition,label,support,f1_percent
+FT-Mem,dos-http,1834,98.58772406300923
+FT-Mem,benign,2727,96.75347841598287
+FT-Mem,mitm-arpspoof,161,9.30232558139535
+FT-Mem,infog-scan-port,469,99.03536977491962
+FT-Mem,dos-tcp-syn,307,99.836867862969
+FT-Mem,malwr-brutef-ftp,20,90.9090909090909
+FT-Mem,inject-xss,493,96.84638860630722
+FT-Mem,malwr-ransomware,212,93.45372460496614
+FT-Mem,malwr-backd-tcp,1134,98.7962550156041
+FT-Mem,malwr-brutef-http,379,95.76719576719577
+FT-Mem,dos-tcp,5,0.0
+FT-Mem,inject-sql,714,94.96503496503496
+Combined: group all MITM,dos-http,1834,98.69494290375204
+Combined: group all MITM,benign,2727,93.59567901234568
+Combined: group all MITM,mitm-arpspoof,161,48.23943661971831
+Combined: group all MITM,infog-scan-port,469,98.82100750267952
+Combined: group all MITM,dos-tcp-syn,307,99.836867862969
+Combined: group all MITM,malwr-brutef-ftp,20,90.9090909090909
+Combined: group all MITM,inject-xss,493,96.5376782077393
+Combined: group all MITM,malwr-ransomware,212,93.45372460496614
+Combined: group all MITM,malwr-backd-tcp,1134,98.70708872046366
+Combined: group all MITM,malwr-brutef-http,379,96.47058823529412
+Combined: group all MITM,dos-tcp,5,50.0
+Combined: group all MITM,inject-sql,714,94.89153254023793
+Combined: group all benign,dos-http,1834,98.69494290375204
+Combined: group all benign,benign,2727,96.48745519713262
+Combined: group all benign,mitm-arpspoof,161,8.13953488372093
+Combined: group all benign,infog-scan-port,469,98.82100750267952
+Combined: group all benign,dos-tcp-syn,307,99.836867862969
+Combined: group all benign,malwr-brutef-ftp,20,90.9090909090909
+Combined: group all benign,inject-xss,493,96.5376782077393
+Combined: group all benign,malwr-ransomware,212,93.45372460496614
+Combined: group all benign,malwr-backd-tcp,1134,98.70708872046366
+Combined: group all benign,malwr-brutef-http,379,96.47058823529412
+Combined: group all benign,dos-tcp,5,50.0
+Combined: group all benign,inject-sql,714,94.89153254023793

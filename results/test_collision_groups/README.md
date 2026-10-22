@@ -13,3 +13,11 @@ group_prediction_attribution.csv有72行方法/域结果，含60行增量模型�
 audit_test_collision_groups.py需要初始化原论文作者数据，重建输入并核验真实标签顺序。recompute_group_attribution.py只读取归档分组、主实验预测及校准验证logits，无需训练、原始特征或GPU。独立复算通过72行、60个校准结果、648项数值核对。后者检查给定分组的指标，特征相等性由前者检查。
 
 在课程提交目录直接运行：python 03代码/补充核验/recompute_group_attribution.py
+
+## 固定其余预测的组判定对照（2026-10-22）
+
+recompute_group_decision_tradeoff.py固定正向种子1 Combined其余测试预测，只将396条组内预测设为MITM或正常。Macro-F1分别为88.346470%与85.245793%，相差3.100677个百分点；FT-Mem为81.187788%，该组预测正常。Combined原始相对差值7.158682个百分点，将组改为正常后差值4.058005个百分点。
+
+全判MITM时，该类F1为48.239437%，正常类F1为93.595679%；全判正常时分别为8.139535%及96.487455%。分类平均对12类等权，额外266条正常误报伴随3.10个百分点的Macro-F1提高。输出见fixed_other_predictions.json及36行逐类CSV。
+
+这是固定其他预测的单顺序替换，和校准同时改变组内外预测的双顺序平均分解是两个不同问题；不得把3.10与3.14两个数混同为同一结果。脚本不训练、不加载原始数据、不需要GPU；默认输入路径适用于课程提交目录，公开仓库运行时需传入--main-results和--group-results。
