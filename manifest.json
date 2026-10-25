@@ -26,8 +26,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 10883,
-    "sha256": "81587417858380c250971d2e949576f123babb1e3d7d69c6a420e28c1aed89b3"
+    "bytes": 11900,
+    "sha256": "afcf13b62ded8b91e6635718a212081e7f9db9480ef3826ba3d73a54fa6ec763"
   },
   {
     "path": "audit_design_20261020.py",
@@ -68,6 +68,11 @@
     "path": "collect_control_results.py",
     "bytes": 1379,
     "sha256": "1f8ea6f05a467c516d60cc907254a16f2115ea6b20e61b038f3c80a726b1ede3"
+  },
+  {
+    "path": "collect_edge_reference.py",
+    "bytes": 1042,
+    "sha256": "50b0ce12a2d1ae04761cfaa2697b476d42527fd8f7a8237d0e85cdba601e8579"
   },
   {
     "path": "collect_fixed_target_results.py",
@@ -113,6 +118,11 @@
     "path": "full_run_reference_seed1.csv",
     "bytes": 355,
     "sha256": "c29f5c2b0035746d0bcf807603f336074b484b574ac10ebbcfa9842bf4220309"
+  },
+  {
+    "path": "preflight_edge_reference.sh",
+    "bytes": 327,
+    "sha256": "d9bcfb286bd82045d25c373edf57b5ab26a6ca9000f534d28d2afd33bdfa8c49"
   },
   {
     "path": "prepare_smoke.py",
@@ -213,6 +223,26 @@
     "path": "results/design_audit/验证预算精度.csv",
     "bytes": 601,
     "sha256": "71d520a68bf8c3116af9466a6b938e79eb67144132bd7309c94203a11ddfb2a7"
+  },
+  {
+    "path": "results/edge_reference_20261025/README.md",
+    "bytes": 645,
+    "sha256": "8dd1ba7e4c7e77570271140acdb71bc4ded55654f70518e272fd09be46658a13"
+  },
+  {
+    "path": "results/edge_reference_20261025/recomputed_metrics.csv",
+    "bytes": 2700,
+    "sha256": "41d861782ea0f4fc4be0bcc2adb8b831a1a77aec03e6ee489c79aa4bc7e57e33"
+  },
+  {
+    "path": "results/edge_reference_20261025/three_seed_means.csv",
+    "bytes": 882,
+    "sha256": "b3563d1b419fd61cdf1dfa5168db1ca3bbed6bed62bec39b9677be2b8dd3bd86"
+  },
+  {
+    "path": "results/edge_reference_20261025/verification.json",
+    "bytes": 319,
+    "sha256": "690d54409531b7635548ae3a8181a280b35a35d1d975f273bf2994e8997edfeb"
   },
   {
     "path": "results/fixed_calibration/frozen_protocol.json",
@@ -385,6 +415,16 @@
     "sha256": "ee046440e29f3ecd3cdafa750653a116ad33002167b593755fba36f544219336"
   },
   {
+    "path": "run_edge_reference.py",
+    "bytes": 15778,
+    "sha256": "b2de7f82065c7091be461ee75ebce4081d899503c1568c890bdc9f526222941e"
+  },
+  {
+    "path": "run_edge_reference_all.sh",
+    "bytes": 364,
+    "sha256": "9b399a30fd393b5f8529d3fdb179b457e7aa47a695498d5df8944873dc8df2db"
+  },
+  {
     "path": "run_fixed_target_all.sh",
     "bytes": 634,
     "sha256": "315604efc3e955098917377e1037c9b4542b280460d2be342330df332a10458c"
@@ -438,6 +478,11 @@
     "path": "summarize_repeat_experiments.py",
     "bytes": 3234,
     "sha256": "798a348d5cca3aeb177a9a7523d5ea1f5547363ec20329eccd75d9dee400840c"
+  },
+  {
+    "path": "verify_edge_reference.py",
+    "bytes": 3244,
+    "sha256": "18804b4b6ffbf92b32b5121da1c88482cbe0d63731bc40a634e8df916572ecad"
   },
   {
     "path": "verify_fixed_target_results.py",

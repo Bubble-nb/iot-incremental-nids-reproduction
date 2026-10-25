@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "runs": 3,
+  "adaptation_branches": 15,
+  "source_training_runs": 3,
+  "verified_predictions": 66,
+  "verified_test_rows": 36,
+  "checkpoint_hashes_verified": 15,
+  "archive_sha256": "332435106db6037ae11f80cbbcd217cd21cee2dff9c1adcc9c24a8959affd1b9",
+  "training_performed_by_verifier": false
+}
