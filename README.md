@@ -104,3 +104,11 @@ FT 和 FT-Mem 使用原作者训练框架。Replay 将批次改为 32 条目标�
 公开仓库使用复算脚本时，分别通过`--main-results`、`--calibration-results`和`--group-results`指向提交包的主实验逐样本预测、固定阈值校准和测试组误报分解目录。
 
 `recompute_group_decision_tradeoff.py`固定其余Combined预测，复算TON_IoT冲突组全判MITM或全判正常的结果（88.35%与85.25%）；该3.10个百分点差值与校准的双顺序平均分解分开报告。详见`results/test_collision_groups`。
+
+## 采样、加权及全量历史补充对照（2026-10-25）
+
+已完成36个采样/加权、24个固定每轮目标曝光、6个全量历史联合更新分支，均为两方向各三个种子。新结果见`results/supplementary_20261025`。66个分支不等于66个独立种子。
+
+`run_sampling_controls.py`比较比例与静态/采样期望频率权重；`run_fixed_target_controls.py`配合`fixed_target_sampler.py`固定对应轮的目标抽取序列；`run_joint_full_reference.py`复用源检查点，在完整源训练集和目标训练集并集上更新。三者均复核数据划分、保留全部分支、在训练完成后导出双域预测。输入需初始化固定作者代码并提供`control_baselines`；运行准备包和完整模型/预测保存在课程附件，公开仓库不托管这些二进制数据。
+
+固定曝光指每轮目标曝光，不含总训练曝光与计算量控制；联合更新放宽历史存储限制，不是数学上界。原始云端固定曝光验证报告的测试行数计数字段沿用了旧模板；独立复算已据实际数组更正为48行，模型预测与指标不受影响，原始文件保留。验证脚本改为按实际行数输出。

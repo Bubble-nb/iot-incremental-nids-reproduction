@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "runs": 6,
+  "branches": 24,
+  "verified_predictions": 96,
+  "verified_test_rows": 48,
+  "checkpoints_hash_verified": 24,
+  "training_performed": false,
+  "scope": "Saved-result verification; not a recording or reconstruction of historical training."
+}

@@ -1,0 +1,13 @@
+﻿run,domain,macro_f1_delta,fpr_delta,attack_recall_delta
+iot_nidd_to_ton_iot_seed1_row_index_fixed,source,0.581935185094494,1.5690776884806752,0.0
+iot_nidd_to_ton_iot_seed1_row_index_fixed,target,-2.903704040474679,-9.937660432709938,-2.2171787709497153
+iot_nidd_to_ton_iot_seed2_row_index_fixed,source,0.49979785593973247,-3.36777650210486,-0.11813349084465585
+iot_nidd_to_ton_iot_seed2_row_index_fixed,target,3.914369717244554,0.0,-0.034916201117326295
+iot_nidd_to_ton_iot_seed3_row_index_fixed,source,15.503131041480273,-33.103712208189826,-0.5906674542232793
+iot_nidd_to_ton_iot_seed3_row_index_fixed,target,-0.23502586193154684,-0.8067473414008066,-0.22695530726257118
+ton_iot_to_iot_nidd_seed1_row_index_fixed,source,5.017876043544021,-0.1100110011001103,-0.7157821229050398
+ton_iot_to_iot_nidd_seed1_row_index_fixed,target,-1.5974393521660062,-0.5357826253348639,-0.44300059066746655
+ton_iot_to_iot_nidd_seed2_row_index_fixed,source,3.9965781458218004,-0.07334066740007295,-0.13966480446927676
+ton_iot_to_iot_nidd_seed2_row_index_fixed,target,1.1988150840424368,-0.9567546880979718,0.029533372711156858
+ton_iot_to_iot_nidd_seed3_row_index_fixed,source,-2.1202489461672087,-2.126879354602128,-2.2171787709497153
+ton_iot_to_iot_nidd_seed3_row_index_fixed,target,3.1179580240731184,-2.257941063911213,0.590667454223265

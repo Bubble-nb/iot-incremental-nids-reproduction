@@ -1,0 +1,7 @@
+﻿run,source_train_n,target_train_n,elapsed_seconds
+iot_nidd_to_ton_iot_seed1_row_index_fixed,12714,17736,709.540070772171
+iot_nidd_to_ton_iot_seed2_row_index_fixed,12714,17736,781.7881855964661
+iot_nidd_to_ton_iot_seed3_row_index_fixed,12714,17736,700.3229413032532
+ton_iot_to_iot_nidd_seed1_row_index_fixed,17736,12714,830.8639221191406
+ton_iot_to_iot_nidd_seed2_row_index_fixed,17736,12714,797.6476566791534
+ton_iot_to_iot_nidd_seed3_row_index_fixed,17736,12714,780.7385511398315

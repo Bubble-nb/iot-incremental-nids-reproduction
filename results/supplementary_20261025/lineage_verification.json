@@ -1,0 +1,110 @@
+[
+  {
+    "experiment": "sampling",
+    "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+    "source_sha256": "dbd2d11829e69f8df611932ff1067560f2078c90decd97261829d0e3633d94b7",
+    "split_equality": true
+  },
+  {
+    "experiment": "sampling",
+    "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+    "source_sha256": "c7a899c9688646dbc27cdee8e0a2dfbff8dc84bd66df355deb0166906ae64755",
+    "split_equality": true
+  },
+  {
+    "experiment": "sampling",
+    "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+    "source_sha256": "afa560cc5ece74a5b88fa4c3f026e46a560df5257ed3d213547ccfec5b7a8b3d",
+    "split_equality": true
+  },
+  {
+    "experiment": "sampling",
+    "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+    "source_sha256": "bb00736f4ddcf96c5db5da7a6f61198864c64da05c84cee63fac3963205f6ea1",
+    "split_equality": true
+  },
+  {
+    "experiment": "sampling",
+    "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+    "source_sha256": "7a1b32a5cb0dfb2b0dad1befc5dda5a713386db52449466b1114dab48f1922c2",
+    "split_equality": true
+  },
+  {
+    "experiment": "sampling",
+    "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+    "source_sha256": "f59a1703642564d85c4fc920de69e747642dcc4cbd2c84913fed2cc671c47426",
+    "split_equality": true
+  },
+  {
+    "experiment": "fixed_target",
+    "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+    "source_sha256": "dbd2d11829e69f8df611932ff1067560f2078c90decd97261829d0e3633d94b7",
+    "split_equality": true
+  },
+  {
+    "experiment": "fixed_target",
+    "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+    "source_sha256": "c7a899c9688646dbc27cdee8e0a2dfbff8dc84bd66df355deb0166906ae64755",
+    "split_equality": true
+  },
+  {
+    "experiment": "fixed_target",
+    "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+    "source_sha256": "afa560cc5ece74a5b88fa4c3f026e46a560df5257ed3d213547ccfec5b7a8b3d",
+    "split_equality": true
+  },
+  {
+    "experiment": "fixed_target",
+    "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+    "source_sha256": "bb00736f4ddcf96c5db5da7a6f61198864c64da05c84cee63fac3963205f6ea1",
+    "split_equality": true
+  },
+  {
+    "experiment": "fixed_target",
+    "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+    "source_sha256": "7a1b32a5cb0dfb2b0dad1befc5dda5a713386db52449466b1114dab48f1922c2",
+    "split_equality": true
+  },
+  {
+    "experiment": "fixed_target",
+    "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+    "source_sha256": "f59a1703642564d85c4fc920de69e747642dcc4cbd2c84913fed2cc671c47426",
+    "split_equality": true
+  },
+  {
+    "experiment": "joint_full",
+    "run": "iot_nidd_to_ton_iot_seed1_row_index_fixed",
+    "source_sha256": "dbd2d11829e69f8df611932ff1067560f2078c90decd97261829d0e3633d94b7",
+    "split_equality": true
+  },
+  {
+    "experiment": "joint_full",
+    "run": "iot_nidd_to_ton_iot_seed2_row_index_fixed",
+    "source_sha256": "c7a899c9688646dbc27cdee8e0a2dfbff8dc84bd66df355deb0166906ae64755",
+    "split_equality": true
+  },
+  {
+    "experiment": "joint_full",
+    "run": "iot_nidd_to_ton_iot_seed3_row_index_fixed",
+    "source_sha256": "afa560cc5ece74a5b88fa4c3f026e46a560df5257ed3d213547ccfec5b7a8b3d",
+    "split_equality": true
+  },
+  {
+    "experiment": "joint_full",
+    "run": "ton_iot_to_iot_nidd_seed1_row_index_fixed",
+    "source_sha256": "bb00736f4ddcf96c5db5da7a6f61198864c64da05c84cee63fac3963205f6ea1",
+    "split_equality": true
+  },
+  {
+    "experiment": "joint_full",
+    "run": "ton_iot_to_iot_nidd_seed2_row_index_fixed",
+    "source_sha256": "7a1b32a5cb0dfb2b0dad1befc5dda5a713386db52449466b1114dab48f1922c2",
+    "split_equality": true
+  },
+  {
+    "experiment": "joint_full",
+    "run": "ton_iot_to_iot_nidd_seed3_row_index_fixed",
+    "source_sha256": "f59a1703642564d85c4fc920de69e747642dcc4cbd2c84913fed2cc671c47426",
+    "split_equality": true
+  }
+]
